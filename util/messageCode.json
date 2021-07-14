@@ -1,0 +1,287 @@
+{
+    "users": {
+        "find": {
+            "200": "Data fetched successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        },
+        "save": {
+            "200": "Data inserted successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        },
+        "update": {
+            "200": "Data updated successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        },
+        "delete": {
+            "200": "Data deleted successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        }
+    },
+    "agency": {
+        "find": {
+            "200": "Data fetched successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        },
+        "save": {
+            "200": "Data inserted successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "This Email ID/ Agency name already exists, use another email ID/ Agency name to proceed",
+            "500": "Internal server error"
+        },
+        "update": {
+            "200": "Data updated successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        },
+        "delete": {
+            "200": "Data deleted successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        }
+    },
+    "campaign": {
+        "find": {
+            "200": "Data fetched successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        },
+        "save": {
+            "200": "Congratulation !! Your campaign Save successfully!!",
+            "201": "You have insufficient funds. Add Funds", 
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Sorry, The same Campaign is already running.",
+            "500": "Internal server error"
+        },
+        "update": {
+            "200": "Data updated successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        },
+        "delete": {
+            "200": "Data deleted successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        }
+    },
+    "payment": {
+        "find": {
+            "200": "Data fetched successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        },
+        "save": {
+            "200": "Payment inserted successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        },
+        "update": {
+            "200": "Payment updated successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        },
+        "delete": {
+            "200": "Payment deleted successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        }
+    },
+    "transaction": {
+        "find": {
+            "200": "Data fetched successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        },
+        "save": {
+            "200": "Transaction inserted successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        },
+        "update": {
+            "200": "Transaction updated successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        },
+        "delete": {
+            "200": "Payment deleted successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        }
+    },
+    "dashboard": {
+        "find": {
+            "200": "Data fetched successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        },
+        "save": {
+            "200": "Data inserted successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        },
+        "update": {
+            "200": "Data updated successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        },
+        "delete": {
+            "200": "Data deleted successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate records",
+            "500": "Internal server error"
+        }
+    },
+    "trainer": {
+        "find": {
+            "200": "Data fetched successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate Records",
+            "500": "Internal server error"
+        },
+        "save": {
+            "200": "Data inserted successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate Records",
+            "500": "Internal server error"
+        },
+        "update": {
+            "200": "Data updated successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate Records",
+            "500": "Internal server error"
+        },
+        "delete": {
+            "200": "Data deleted successfully!!",
+            "400": "Bad request",
+            "401": "Unauthorised",
+            "403": "Forbidden",
+            "404": "data not found.",
+            "409": "Duplicate Records",
+            "500": "Internal server error"
+        }
+    },
+    "login": {
+        "200": "Login Successfull !!",
+        "400": "Invaliad user name or password. Please try again",
+        "401": "Unauthorised",
+        "403": "Forbidden",
+        "404": "Login Failed.",
+        "409": "Duplicate records",
+        "500": "Internal server error"
+    },
+    "ads": {
+        "200": "Ads Fetched Successfully !!",
+        "400": "Bad request",
+        "401": "Unauthorised",
+        "403": "Forbidden",
+        "404": "Login Failed.",
+        "409": "Duplicate records",
+        "500": "Internal server error"
+    }
+}
